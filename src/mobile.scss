@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1419px) { 
+
+    }
+    
+    @media only screen and (max-width: 991px) { 
+      header .container .col-md-7 h6 {
+        position: static;
+      }
+      .contact-section {
+        padding: 0 2rem;
+      }
+      .contact {
+        padding: 4rem 2rem;
+      }
+      
+    }
+    
+    @media only screen and (max-width: 768px) {
+        header .navbar-brand {
+          padding-left: 1rem;
+        }
+        header .row .col-md-7 {
+            padding-bottom: 0vmin;
+        }
+        
+        header .row .col-md-5 {
+            padding: 4vmin 2vmin;
+        }
+        header .row .col-md-5 img {
+          width: 60%;
+      }
+      .proj-card {
+        
+        h2 {
+          
+        }
+        p {
+          
+          padding-right: 2rem;
+          
+        }
+      }
+      .contact-section {
+        padding: 0 1rem;
+      }
+      .top-line {
+        flex-direction: column;
+        h2{
+          font-size: 20px;
+          margin-right: 2rem;
+        }
+      }
+        
+      }
+      
+      /* screen size 375px */
+      
+      @media only screen and (max-width: 375px) {
+        .contact-section {
+          padding: 0;
+        }
+        .top-line {
+          h2{
+            margin-right: 0rem;
+          }
+        }
+      }
+      
+      @media only screen and (max-width: 320px) {
+   
+      }

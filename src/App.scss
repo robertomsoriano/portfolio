@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css?family=Anton|Work+Sans&display=swap');
+$Anton: 'Anton', sans-serif;
+$WorkSans: 'Work Sans', sans-serif;
+$dark: #211E32;
+$green: #06808D;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    scroll-behavior: smooth;
+    background: #F7F1EF;
+    color: #211E32;
+    min-width: 345px;
+  }
+  .laptop {
+    position: absolute;
+    right:0;
+    }
+header,
+section {
+    overflow: hidden;
+}
+
+$Sniglet-font: "Sniglet",cursive;
+$Rubik: "Rubik",cursive;
+$Patua: "Patua One",cursive;
+$Lobster: "lobster",cursive;
+$light-black: #2e2c2caf;
+$bggradient: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+$light-gray: rgba(31, 30, 30, 0.877);
+$mainPink: #c33764;
+$mainPurple: rgb(133,128,253);
+$mainBlack: rgb(63,61,86);
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    .row .col-md-7 {
+        padding: 22vmin 1vmin;
+        padding-bottom: 35vmin;
+        font-family: $Rubik;
+        color: $mainBlack;
+        
+    }
+    .container .col-md-7 {
+        position: relative;
+        h1 {
+            font-size: 8vmin;
+            font-weight: bold;
+            padding: 0.1em 0em;
+        }
+        .motto {
+            font-size: 18px;
+            font-weight: 600;
+            padding: 0.1em 0em;
+        }
+       .cta-btn {
+            border-radius: 30px;
+            font-weight: bold;
+            background-color: $mainPurple;
+            color: whitesmoke;
+            &:hover {
+                opacity: .8;
+                transform: scale(1.04);
+                transition: all .4s ease-in-out;
+            }
+        }
+    }
+}
+
+.top-nav {
+    margin-top: 6rem;
+    h2 {
+      font-family: $Anton;
+      font-size: 40px;
+      margin-bottom: 1rem;
+    }
+    li {
+      font-family: $WorkSans;
+      font-size: 20px;
+      list-style: none;
+      display: inline;
+      padding-right: 20px;
+      &hover {
+        border-bottom: 3px solid red;
+      }
+      a {
+        text-decoration: none;
+        color: #211E32;
+      }
+      }
+  
+    }
+
+
+  .link:hover {
+    border-bottom: 2px solid red;
+  }
+
+
+
+
+//   ----------
+.projects-section {
+    h1 {
+        opacity: 0.2;
+        font-family: $Anton;
+        font-size: 48px;
+        margin-bottom: 2rem;
+    }
+}
+
+
+.proj-card {
+    margin-bottom: 10px;
+    h2 {
+      font-family: $Anton;
+      font-size: 30px;
+      margin-bottom: 1.4rem;
+    }
+    p {
+      font-family: $WorkSans;
+      font-size: 18px;
+      padding-right: 10rem;
+      
+    }
+  }
+  .view {
+    background: $dark;
+    color: #fff;
+    font-family: $Anton;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    outline-style: none;
+  }
+  .view:hover {
+    color: $green;
+    background: rgba(33, 30, 50, 0.822);
+    transition: all .2s ease-in-out;
+  }
+  .proj-rect {
+    border-radius: 15px;
+    img {
+        width: 90%;
+        min-width: 280px;
+    }
+  }
+
+
+
+
+
+//   --------
+
+.contact-section {
+    padding: 0 8rem;
+    margin-bottom: 4rem;
+    h1 {
+        opacity: 0.2;
+        font-family: $Anton;
+        font-size: 48px;
+        margin-bottom: 2rem;
+    }
+}
+.contact {
+    background: $dark;
+    color: white;
+    border-radius: 30px;
+    padding: 4rem 6rem;
+    .top-line {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    h2 {
+        font-family: $WorkSans;
+        font-size: 24px;
+        display: inline-block;
+        margin-right: 6rem;
+        
+    }
+    span {
+        display: inline-block;
+        justify-items: center;
+        align-items: center;
+        a {
+            color: white;
+            &:hover {
+                color: #329AF0;
+            }
+        }
+        i {
+            font-size: 24px;
+            margin-right: 10px;
+            
+        }
+    }
+    .form-name {
+        input {
+            width: 50%;
+            height: 38px;
+        }
+    }
+    .form-email {
+        input {
+            width: 75%;
+            height: 40px;
+        }
+    }
+    label {
+        display: block;
+        font-family: $Anton;
+        font-size: 24px;
+    }
+    input, textarea {
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        margin-bottom: 2rem;
+        font-family: $WorkSans;
+        font-size: 16px;
+        padding-left: 8px;
+    }
+    textarea {
+        width: 100%;
+        height: 160px;
+    }
+    button {
+        font-family: $Anton;
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 4px 36px;
+        outline: none;
+        border: none;
+        &:hover {
+            color: white;
+            background-color: $mainBlack;
+            transform: translateY(2px);
+        }
+    }
+}
+footer {
+    overflow: hidden;
+    background-image: url('./assets/wave.svg');
+    background-repeat: no-repeat;
+  background-size: cover;
+    height: 38vh;
+}
+.wave {
+    position: absolute;
+    overflow-x: hidden;
+}
