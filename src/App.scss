@@ -25,8 +25,8 @@ body {
     }
 header,
 section {
-    overflow: hidden;
-    min-height: 900px;
+    overflow-x: hidden;
+    // min-height: 700px;
 }
 
 $Sniglet-font: "Sniglet",cursive;
@@ -41,13 +41,13 @@ $mainPurple: rgb(133,128,253);
 $mainBlack: rgb(63,61,86);
 
 header {
-    height: 110vh;
-    min-height: 1000px;
+    // height: 110vh;
+    // min-height: 1000px;
     display: flex;
     justify-content: center;
     .row .col-md-7 {
         padding: 22vmin 1vmin;
-        padding-bottom: 35vmin;
+        // padding-bottom: 35vmin;
         font-family: $Rubik;
         color: $mainBlack;
         
