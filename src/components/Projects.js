@@ -27,10 +27,13 @@ export const Projects = () => {
             </div>
           </div>
           {/* ---------- */}
+
           <div className="col-md-5 col-sm-12 h-25" data-aos="fade-left">
-            <div className="proj-rect">
-              <img src={poele} alt="project" />
-            </div>
+            <a href={poele} target="_blank" rel="noopener noreferrer">
+              <div className="proj-rect">
+                <img src={poele} alt="project" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -60,9 +63,11 @@ export const Projects = () => {
           </div>
           {/* ---------- */}
           <div className="col-md-5 col-sm-12 h-25" data-aos="fade-left">
-            <div className="proj-rect">
-              <img src={bookstore} alt="project" />
-            </div>
+            <a href={bookstore} target="_blank" rel="noopener noreferrer">
+              <div className="proj-rect">
+                <img src={bookstore} alt="project" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -90,9 +95,11 @@ export const Projects = () => {
           </div>
           {/* ---------- */}
           <div className="col-md-5 col-sm-12 h-25" data-aos="fade-left">
-            <div className="proj-rect">
-              <img src={reactmovies} alt="project" />
-            </div>
+            <a href={reactmovies} target="_blank" rel="noopener noreferrer">
+              <div className="proj-rect">
+                <img src={reactmovies} alt="project" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -119,9 +126,11 @@ export const Projects = () => {
           </div>
           {/* ---------- */}
           <div className="col-md-5 col-sm-12 h-25" data-aos="fade-left">
-            <div className="proj-rect">
-              <img src={weather} alt="project" />
-            </div>
+            <a href={weather} target="_blank" rel="noopener noreferrer">
+              <div className="proj-rect">
+                <img src={weather} alt="project" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
