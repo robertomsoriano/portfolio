@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9e7ad20.chunk.css",
+    "main.js": "/static/js/main.1b8b30a4.chunk.js",
+    "main.js.map": "/static/js/main.1b8b30a4.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.e0fb19a5.chunk.js": "/static/js/2.e0fb19a5.chunk.js",
+    "static/js/2.e0fb19a5.chunk.js.map": "/static/js/2.e0fb19a5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e66080a7a21cfb332bac2a18bc4a3838.js": "/precache-manifest.e66080a7a21cfb332bac2a18bc4a3838.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e9e7ad20.chunk.css.map": "/static/css/main.e9e7ad20.chunk.css.map",
+    "static/media/Poele.png": "/static/media/Poele.35dd79e0.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.4d52b6b9.png",
+    "static/media/react-movies.jpg": "/static/media/react-movies.42d288e8.jpg",
+    "static/media/App.scss": "/static/media/wave.8f31634a.svg",
+    "static/media/weather.jpg": "/static/media/weather.1f3453ad.jpg"
+  }
+}
