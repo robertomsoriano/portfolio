@@ -1,4 +1,4 @@
-const rootUrl = "http://dtl0o7cnwts9e.cloudfront.net/";
+const rootUrl = "https://dtl0o7cnwts9e.cloudfront.net/";
 
 export const laptopColor = `${rootUrl}laptop-color.svg`;
 export const poele = `${rootUrl}Poele.png`;
