@@ -1,7 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 @import url('https://fonts.googleapis.com/css?family=Anton|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,900|Open+Sans&display=swap');
 $Anton: 'Anton', sans-serif;
 $WorkSans: 'Work Sans', sans-serif;
+$Merri: "Merriweather" , sans-serif;
+$OpenSans: 'Open Sans', sans-serif;
+$light-black: #2e2c2caf;
+$bggradient: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+$light-gray: rgba(31, 30, 30, 0.877);
+$mainPink: #c33764;
+$mainPurple: rgb(133,128,253);
+$mainBlack: rgb(63,61,86);
 $dark: #211E32;
 $green: #06808D;
 * {
@@ -18,37 +26,28 @@ body {
     background: #F7F1EF;
     color: #211E32;
     min-width: 345px;
+    font-family: "Merriweather , Open Sans";
+    font-size: 16px;
   }
   .laptop {
     position: absolute;
+    top: -10%;
     right:0;
+    opacity: .6;
     }
 header,
 section {
     overflow-x: hidden;
-    // min-height: 700px;
 }
 
-$Sniglet-font: "Sniglet",cursive;
-$Rubik: "Rubik",cursive;
-$Patua: "Patua One",cursive;
-$Lobster: "lobster",cursive;
-$light-black: #2e2c2caf;
-$bggradient: linear-gradient(to right, #FFFFFF, #ECE9E6); 
-$light-gray: rgba(31, 30, 30, 0.877);
-$mainPink: #c33764;
-$mainPurple: rgb(133,128,253);
-$mainBlack: rgb(63,61,86);
+
 
 header {
-    // height: 110vh;
-    // min-height: 1000px;
     display: flex;
     justify-content: center;
     .row .col-md-7 {
-        padding: 22vmin 1vmin;
-        // padding-bottom: 35vmin;
-        font-family: $Rubik;
+        padding: 10vmin 1vmin;
+        font-family: $Merri;
         color: $mainBlack;
         
     }
@@ -56,7 +55,9 @@ header {
         position: relative;
         h1 {
             font-size: 8vmin;
+            font-size: 4rem;;
             font-weight: bold;
+            line-height: 1;
             padding: 0.1em 0em;
         }
         .motto {
@@ -81,19 +82,16 @@ header {
 .top-nav {
     margin-top: 6rem;
     h2 {
-      font-family: $Anton;
-      font-size: 40px;
+      font-weight: 700;
+      font-size: 36px;
       margin-bottom: 1rem;
     }
     li {
-      font-family: $WorkSans;
       font-size: 20px;
       list-style: none;
       display: inline;
       padding-right: 20px;
-      &hover {
-        border-bottom: 3px solid red;
-      }
+      position: relative;
       a {
         text-decoration: none;
         color: #211E32;
@@ -101,20 +99,28 @@ header {
       }
   
     }
+    .link::after {
+        content: '';
+        display: none;
+        position: absolute;
+        top: 24px;
+        left: 0;
+        height: 3px;
+        width: 80%;
+        background: #c33764;
+        border-bottom: 3px solid red;
+    }
+    .link:hover::after{
+        display: inline;
+    }
 
 
-  .link:hover {
-    border-bottom: 2px solid red;
-  }
 
-
-
-
-//   ----------
+//   Projects ------
 .projects-section {
     h1 {
         opacity: 0.2;
-        font-family: $Anton;
+        font-weight: 700;
         font-size: 48px;
         margin-bottom: 2rem;
     }
@@ -130,6 +136,7 @@ header {
     }
     p {
       font-family: $WorkSans;
+      font-family: $OpenSans;
       font-size: 18px;
       padding-right: 10rem;
       
@@ -139,7 +146,8 @@ header {
     background: $dark;
     color: #fff;
     font-family: $Anton;
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: .5px;
     padding: 5px 20px;
     border-radius: 10px;
     border: none;
@@ -155,6 +163,7 @@ header {
     img {
         width: 90%;
         min-width: 280px;
+        border-radius: 10px;
     }
   }
 
@@ -162,14 +171,14 @@ header {
 
 
 
-//   --------
+//  CONTACT --------
 
 .contact-section {
     padding: 0 8rem;
     margin-bottom: 4rem;
     h1 {
         opacity: 0.2;
-        font-family: $Anton;
+        font-weight: 700;
         font-size: 48px;
         margin-bottom: 2rem;
     }

@@ -6,24 +6,25 @@ export const Hero = () => {
       <div className="container " id="home">
         <div className="row">
           <div className="col-md-7 col-sm-12" data-aos="fade-right">
+            <h2>Hey There! my name is</h2>
             <h1>Roberto Soriano.</h1>
             <p>
               I'm a software developer and UX/UI designer living in northeastern
               Massachusetts. I specialize in building web applications using
-              JavaScript and React. I have a Data Analytics Nanodegree and
-              DevOps (AWS and GCP) experience with Docker.
+              JavaScript and React and serverless technologies.
               <br />
             </p>
             <p>
               I also enjoy working on the backend with NodeJS. I know my way
               around the Bash terminal. I have proficient skills in database
-              setup, authentication and Linux server maintainance.
+              setup, authentication(JWT) and basic Linux server maintainance.
             </p>
             <p>
-              I enjoy DevOps! This site is running on Google Cloud App Engine
-              (migrated from a Docker Container running on my VPS). The Contact
-              form on the bottom triggers an AWS Lambda function which sends me
-              an email with the all data you enter using AWS SES.
+              I enjoy DevOps! This site is running on Google Cloud App Engine,
+              migrated from a Docker Container running on my private server. The
+              Contact form on the bottom of this page triggers an AWS Lambda
+              function which sends me an email with the all data you submit,
+              using AWS SES.
             </p>
             <h2 className="motto">
               My passion is to develop applications that save energy, time and
