@@ -9,22 +9,33 @@ export const Hero = () => {
             <h2>Hey There! my name is</h2>
             <h1>Roberto Soriano.</h1>
             <p>
-              I'm a software developer and UX/UI designer living in northeastern
-              Massachusetts. I specialize in building web applications using
-              JavaScript and React and serverless technologies.
+              I'm a software developer and UX/UI designer that specializes in
+              building web applications using JavaScript, React, and serverless
+              technologies.
               <br />
             </p>
             <p>
-              I also enjoy working on the backend with NodeJS. I know my way
-              around the Bash terminal. I have proficient skills in database
-              setup, authentication(JWT) and basic Linux server maintainance.
+              I also enjoy working on the backend with NodeJS, Express and
+              GraphQL. I know my way around the Bash terminal. I have proficient
+              skills in database setup, authentication (with JWTs) and basic
+              Linux server maintainance.
             </p>
             <p>
-              I enjoy DevOps! This site is running on Google Cloud App Engine,
-              migrated from a Docker Container running on my private server. The
-              Contact form on the bottom of this page triggers an AWS Lambda
-              function which sends me an email with the all data you submit,
-              using AWS SES.
+              What about DevOps? This site is running on Google Cloud App
+              Engine, migrated from a Docker Container running on my private
+              server. The Contact form on the bottom of this page triggers an
+              AWS Lambda function which sends me an email with the all data you
+              submit, using AWS SES.
+            </p>
+            <p>
+              <a
+                href="https://robertmsoriano-assets.s3.us-east-2.amazonaws.com/Roberto+Soriano.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#c33764" }}
+              >
+                View my Resume
+              </a>
             </p>
             <h2 className="motto">
               My passion is to develop applications that save energy, time and
