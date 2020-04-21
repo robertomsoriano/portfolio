@@ -1,5 +1,11 @@
 import React from "react";
-import { ecommerce, poele, reactMovies, weather } from "../assets/images";
+import {
+  ecommerce,
+  poele,
+  reactMovies,
+  weather,
+  covid19
+} from "../assets/images";
 
 const ProjectCard = ({ title, desc, img, link, code }) => (
   <div className="container mb-4" id="projects">
@@ -71,6 +77,15 @@ const projectsData = [
     img: reactMovies,
     link: "https://weather.robertmsoriano.com/",
     code: "https://github.com/robertomsoriano/react-movies"
+  },
+
+  {
+    title: "Covid-19",
+    desc:
+      "React application for displaying COVID-19 data. API calls are made to retrieve the data from external sources. Data is displayed using line and bacr charts. Users could browse by country.",
+    img: covid19,
+    link: "https://covidstatstracker.netlify.app",
+    code: "https://covidstatstracker.netlify.app"
   },
   {
     title: "Weather",
