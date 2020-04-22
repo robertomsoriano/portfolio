@@ -3,7 +3,7 @@ import {
   ecommerce,
   poele,
   reactMovies,
-  weather,
+  ajacob,
   covid19
 } from "../assets/images";
 
@@ -75,7 +75,7 @@ const projectsData = [
     desc:
       "An user interface for the IMDb movies API with filtering options and pagination. This project was developed using ReactJS for the frontend and NodeJS for serving the static files.",
     img: reactMovies,
-    link: "https://weather.robertmsoriano.com/",
+    link: "https://movies.robertmsoriano.com/",
     code: "https://github.com/robertomsoriano/react-movies"
   },
 
@@ -88,11 +88,11 @@ const projectsData = [
     code: "https://covidstatstracker.netlify.app"
   },
   {
-    title: "Weather",
+    title: "AJacob",
     desc:
-      "Simple weather app that calls a REST API to get weather data. Users could query API with their zipcode and toggle between celsius and fahrenheit degrees.",
-    img: weather,
-    link: "https://movies.robertmsoriano.com/",
-    code: "https://github.com/robertomsoriano/weather-app"
+      "AJacob, a web development agency. This is a custom made Bootstrap template, responsive for desktop, tablet and mobile. Some of the features implemented are form validation and on scroll animation.",
+    img: ajacob,
+    link: "https://ajacob.netlify.app/",
+    code: "https://ajacob.netlify.app/"
   }
 ];
